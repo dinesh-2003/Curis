@@ -20,7 +20,7 @@ app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 
 # ---------------- LOAD MODEL ----------------
 model = tf.keras.models.load_model(
-    "dfu_densenet_ce_model.h5",
+    "dfu_densenet_ce_model(1).h5",
     compile=False
 )
 
